@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Lab : Home</title>
+    <!-- aos animation cdn-->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- bootstrap cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- nunito font & arimo font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/4a8544fbf5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- carousel file links -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- accordion css -->
+    <link rel="stylesheet" href="css/accordion.css" />
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/eq.css" />
+    <!-- media css -->
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/eq_media.css" />
+  </head>
+
+  <body>
+    <!-- ============ header part start form here  ================-->
+    <header class="header" id="home">
+      <div class="top-header">
+        <div class="container">
+          <div class="row align-items-center justify-content-between py-3">
+            <div class="logo col-8 col-sm-8">
+              <a href="#">Accessibility Lab</a>
+            </div>          
+            <div class="col-4 col-sm-4 z_index position-relative">
+              <!-- desktop nav items -->
+              <ul class="navbar_nav">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-discord"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                </li>
+              </ul>
+              <!-- mobile nav items start -->
+              <nav class="navbar navbar-expand-lg mobile_menu">
+                <div class="container-fluid justify-content-end p-0">
+                  <button
+                    class="navbar-toggler p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <div class="toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="#"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a class="nav-link" href="#"
+                        ><i class="fa-brands fa-x-twitter"></i
+                      ></a>
+                      <a class="nav-link" href="#"
+                        ><i class="fa-brands fa-discord"></i
+                      ></a>
+                      <a class="nav-link" href="#"
+                        ><i class="fa-solid fa-paper-plane"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- mobile nav items end -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax_wrapper">
+        <div
+          class="parallax_img first_parallax parallax"
+          data-parallaxed-speed="1"
+        >
+          <img src="images/mountain1.png" class="img-fluid w-100" alt="" />
+        </div>
+        <div class="parallax_img parallax" data-parallaxed-speed=".9">
+          <img src="images/mountain3.png" class="img-fluid w-100" alt="" />
+        </div>
+        <div class="parallax_img parallax" data-parallaxed-speed=".8">
+          <img src="images/maountain2.png" class="img-fluid w-100" alt="" />
+        </div>
+        <div class="parallax_img parallax last" data-parallaxed-speed=".3">
+          <!-- <img src="images/mountain3.png" class="img-fluid w-100" alt="" /> -->
+          <div class="startheading desktop">
+            <!-- <img src="images/beome.png" class="img-fluid" alt=""> -->
+            <div><h1>Accessible Design</h1></div>
+          </div>
+        </div>
+      </div>
+
+
+    </header>
+
+    <!-- main body area -->
+    <main>
+      <!-- Projects section-->
+      <section class="projects project-section">
+        <div class="container">
+        
+          <div
+            class="section_title" >
+            <h2>Projects</h2>
+          </div>
+        </div>
+        <div class="accordion">
+          <div
+            class="acc_border"
+          >
+            <div class="container">
+              <div class="accordion-item">
+                <div class="accordion-title" onclick="toggleAccordion(this)">
+                  <img
+                    src="images/project_accordion.webp"
+                    alt="Accordion Image 1"
+                    class="accordion-img img-fluid"
+                  />
+                  <span class="accordion-text"
+                    >Children’s Intuitive Theory of Accessibility</span
+                  >
+                  <img
+                    src="images/project_accordion_bg.webp"
+                    alt="Landscape Image 1"
+                    class="landscape-img hidden-img"
+                  />
+                  <div class="accordion-icon-cotainer">
+                    <span class="accordion-icon"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="acc-body">
+                  <h3>Children’s Intuitive Theory of Accessibility</h3>
+                  <p>
+                    This Jacobs Foundation Research Fellowship (2023 - 2025)
+                    project is concerned with participatory design and
+                    automation of accessibility for/with children, aiming to
+                    minimise disparities in which kind of children get to
+                    benefit from socially accessibillity design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="acc_border"
+         
+          >
+            <div class="container">
+              <div class="accordion-item">
+                <div class="accordion-title" onclick="toggleAccordion(this)">
+                  <img
+                    src="images/project_accordion2.webp"
+                    alt="Accordion Image 1"
+                    class="accordion-img img-fluid"
+                  />
+                  <span class="accordion-text"
+                    >Children’s Intuitive Theory of Accessibility</span
+                  >
+                  <img
+                    src="images/project_accordion_bg.webp"
+                    alt="Landscape Image 1"
+                    class="landscape-img hidden-img"
+                  />
+                  <div class="accordion-icon-cotainer">
+                    <span class="accordion-icon"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="acc-body">
+                  <h3>Children’s Intuitive Theory of Accessibility</h3>
+                  <p>
+                    This Jacobs Foundation Research Fellowship (2023 - 2025)
+                    project is concerned with participatory design and
+                    automation of accessibility for/with children, aiming to
+                    minimise disparities in which kind of children get to
+                    benefit from socially accessibillity design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="container">
+              <div class="accordion-item">
+                <div class="accordion-title" onclick="toggleAccordion(this)">
+                  <img
+                    src="images/professor3.webp"
+                    alt="Accordion Image 3"
+                    class="accordion-img img-fluid"
+                  />
+                  <span class="accordion-text"
+                    >Co-Designing a Social Accessibility Facilitator to Boost
+                    <br />
+                    Community Engagement</span
+                  >
+                  <img
+                    src="images/project_accordion_bg.webp"
+                    alt="Landscape Image 3"
+                    class="landscape-img hidden-img" />
+                  <div class="accordion-icon-cotainer">
+                    <span class="accordion-icon"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="acc-body">
+                  <h3>
+                    Co-Designing a Social Accessibility Facilitator to Boost
+                    Community Engagement with Type 2 Diabetes Prevention
+                  </h3>
+                  <p>
+                    This Jacobs Foundation Research Fellowship (2023 - 2025)
+                    project is concerned with participatory design and
+                    automation of accessibility for/with children, aiming to
+                    minimise disparities in which kind of children get to
+                    benefit from socially accessibillity design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <!-- Talk section-->
+      <section class="projects ">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2 class="mt-5">Talks</h2>
+          </div>
+        </div>
+        <!-- _____________ -->
+
+        <div class="accordion">
+          <div
+            class="acc_border"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <div class="container">
+              <div class="accordion-item">
+                <div class="accordion-title" onclick="toggleAccordion(this)">
+                  <img
+                    src="images/project_accordion.webp"
+                    alt="Accordion Image 1"
+                    class="accordion-img img-fluid"
+                  />
+                  <span class="accordion-text"
+                    >Children’s Intuitive Theory of Accessibility</span
+                  >
+                  <img
+                    src="images/project_accordion_bg.webp"
+                    alt="Landscape Image 1"
+                    class="landscape-img hidden-img"
+                  />
+                  <div class="accordion-icon-cotainer">
+                    <span class="accordion-icon"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="acc-body">
+                  <h3>Children’s Intuitive Theory of Accessibility</h3>
+                  <p>
+                    This Jacobs Foundation Research Fellowship (2023 - 2025)
+                    project is concerned with participatory design and
+                    automation of accessibility for/with children, aiming to
+                    minimise disparities in which kind of children get to
+                    benefit from socially accessibillity design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="acc_border"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="700"
+          >
+            <div class="container">
+              <div class="accordion-item">
+                <div class="accordion-title" onclick="toggleAccordion(this)">
+                  <img
+                    src="images/project_accordion2.webp"
+                    alt="Accordion Image 2"
+                    class="accordion-img img-fluid"
+                  />
+                  <span class="accordion-text"
+                    >Creating Accessibility for Children, with Children</span
+                  >
+                  <img
+                    src="images/project_accordion_bg.webp"
+                    alt="Landscape Image 2"
+                    class="landscape-img"
+                  />
+                  <div class="accordion-icon-cotainer">
+                    <span class="accordion-icon"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="acc-body">
+                  <h3>Creating Accessibility for Children, with Children</h3>
+                  <p>
+                    This Jacobs Foundation Research Fellowship (2023 - 2025)
+                    project is concerned with participatory design and
+                    automation of accessibility for/with children, aiming to
+                    minimise disparities in which kind of children get to
+                    benefit from socially accessibillity design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="acc_border"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="container">
+              <div class="accordion-item">
+                <div class="accordion-title" onclick="toggleAccordion(this)">
+                  <img
+                    src="images/professor3.webp"
+                    alt="Accordion Image 3"
+                    class="accordion-img img-fluid"
+                  />
+                  <span class="accordion-text"
+                    >Co-Designing a Social Accessibility Facilitator to Boost
+                    Community Engagement</span
+                  >
+                  <img
+                    src="images/project_accordion_bg.webp"
+                    alt="Landscape Image 3"
+                    class="landscape-img hidden-img"
+                  />
+                  <div class="accordion-icon-cotainer">
+                    <span class="accordion-icon"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="acc-body">
+                  <h3>
+                    Co-Designing a Social Accessibility Facilitator to Boost
+                    Community Engagement with Type 2 Diabetes Prevention
+                  </h3>
+                  <p>
+                    This Jacobs Foundation Research Fellowship (2023 - 2025)
+                    project is concerned with participatory design and
+                    automation of accessibility for/with children, aiming to
+                    minimise disparities in which kind of children get to
+                    benefit from socially accessibillity design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- out people & professors section -->
+      <section class="our_people">
+        <div class="container">
+          <h1
+            class="text-center"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            Our People
+          </h1>
+
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>Professors</h2>
+          </div>
+
+          <!-- _____________ -->
+
+          <div class="row px-2 justify-content-center overflow-hidden">
+            <div
+              class="col-md-6 col-sm-6 col-lg-4 our_padding"
+              data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
+              <div class="professor_img">
+                <img src="images/professor1.webp" class="w-100" alt="" />
+              </div>
+              <div class="portfolio-link my-2 text-center">
+                <a href="#">portfolio website</a>
+                <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-sm-6 col-lg-4 our_padding"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
+              <div class="professor_img">
+                <img src="images/professor2.webp" class="w-100" alt="" />
+              </div>
+              <div class="portfolio-link my-2 text-center">
+                <a href="#">portfolio website</a>
+                <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-sm-6 col-lg-4 our_padding"
+              data-aos="fade-up-left"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
+              <div class="professor_img">
+                <img src="images/professor3.webp" class="w-100" alt="" />
+              </div>
+              <div class="portfolio-link my-2 text-center">
+                <a href="#">portfolio website</a>
+                <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- postdocs section -->
+      <section class="postdocs">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>Postdocs</h2>
+          </div>
+
+          <!-- _____________ -->
+          <!-- first row -->
+          <div class="row align-items-center row-gap-5">
+            <div
+              class="col-lg-7"
+              data-aos="fade-down-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="postdocs_content">
+                <h3>Ana Tanevska</h3>
+                <h4>Professor, Lab Director</h4>
+                <p>
+                  Ana Tanevska is a postdoctoral researcher at the Department of
+                  Information Technology, Uppsala University, within the Horizon
+                  Europe project SymAware.
+                </p>
+
+                <a href="#" class="personal_website_link"
+                  >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="col-lg-5"
+              data-aos="fade-up-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="postdocs_img Right">
+                <img src="images/postdaos1.webp" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- secound row -->
+          <div
+            class="row align-items-center row-gap-5 secound_row_position position-relative"
+          >
+            <div
+              class="col-lg-7"
+              data-aos="fade-down-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="postdocs_content">
+                <h3>Ana Tanevska</h3>
+                <h4>Professor, Lab Director</h4>
+                <p>
+                  Ana Tanevska is a postdoctoral researcher at the Department of
+                  Information Technology, Uppsala University, within the Horizon
+                  Europe project SymAware.
+                </p>
+
+                <a href="#" class="personal_website_link"
+                  >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="col-lg-5"
+              data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div
+                class="postdocs_img postdocs_img_position position-relative Left"
+              >
+                <img src="images/postdaos2.webp" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHD section -->
+      <section class="phd">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>PHD Students</h2>
+          </div>
+        </div>
+        <!-- phd content -->
+        <div class="row">
+          <div
+            class="phd_student_carousel owl-carousel d-flex position-relative"
+          >
+            <div
+              class="single_student_card text-center"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <img src="images/phd1.webp" class="img-fluid" alt="" />
+              <h3>Marc Fraile</h3>
+              <a href="#" class="personal_website_link"
+                >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+            <div
+              class="single_student_card text-center"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <img src="images/phd2.webp" class="img-fluid" alt="" />
+              <h3>Mengyu Zhong</h3>
+              <a href="#" class="personal_website_link"
+                >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+            <div
+              class="single_student_card text-center"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <img src="images/phd3.webp" class="img-fluid" alt="" />
+              <h3>Lux Miranda</h3>
+              <a href="#" class="personal_website_link"
+                >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+            <div
+              class="single_student_card text-center"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <img src="images/phd4.webp" class="img-fluid" alt="" />
+              <h3>Alessio Galatolo</h3>
+              <a href="#" class="personal_website_link"
+                >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+            <div
+              class="single_student_card text-center"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <img src="images/phd4.webp" class="img-fluid" alt="" />
+              <h3>Alessio Galatolo</h3>
+              <a href="#" class="personal_website_link"
+                >Personal Website <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Publications section-->
+      <section class="publications">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>Publications</h2>
+          </div>
+          <!-- --------- -->
+
+          <div class="row cusotm_row_gap">
+            <!-- left item -->
+            <div
+              class="col-lg-5 col-sm-12 col-12"
+              data-aos="fade-down-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="publication_img Left">
+                <img src="images/pub1.webp" class="img-fluid w-100" alt="" />
+              </div>
+            </div>
+            <!-- right item -->
+            <div
+              class="col-lg-7 col-sm-12"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="publication_content publication_content_one Right">
+                <h3>
+                  Anticipating the Use of Robots in Domestic Abuse: A Typology
+                  of Robot Facilitated Abuse to Support Risk Assessment and
+                  Mitigation in Human-Robot Interaction
+                </h3>
+                <p>
+                  HRI ‘24: Proceedings of the 2024 ACM/IEEE International
+                  Conference on Human-Robot Interaction
+                </p>
+
+                <a href="#" class="personal_website_link"
+                  >Find Out More <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+            <!-- second row -->
+            <!-- left item -->
+            <div
+              class="col-lg-5 col-sm-12 order-sm-3 order-lg-4"
+              data-aos="fade-up-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="publication_img Right">
+                <img src="images/pub2.webp" class="img-fluid w-100" alt="" />
+              </div>
+            </div>
+            <!-- right item -->
+            <div
+              class="col-lg-7 col-sm-12 order-sm-4 order-lg-3"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="publication_content Left">
+                <h3>
+                  A Case for Diverse Social Robot Identity Performance in
+                  Education
+                </h3>
+                <p>
+                  HRI ‘24: Proceedings of the 2024 ACM/IEEE International
+                  Conference on Human-Robot Interaction
+                </p>
+
+                <a href="#" class="personal_website_link"
+                  >Find Out More <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- button -->
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <button class="btn_view">
+              View More <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Most recent section -->
+      <section class="recent">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>
+              Most recent <br />
+              Publications
+            </h2>
+          </div>
+          <!-- -------- -->
+
+          <div
+            class="recent_carousel owl-carousel"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <!-- item 1 -->
+            <div class="row padding_left_right">
+              <!--left img -->
+              <div class="col-12 col-sm-12 col-lg-4">
+                <img
+                  src="images/recent.webp"
+                  class="w-100 mobile_img_margin"
+                  alt=""
+                />
+              </div>
+              <!-- right content -->
+              <div class="col-12 col-sm-12 col-lg-8">
+                <div class="rec_content">
+                  <div class="d-flex justify-content-between mb_30">
+                    <ul class="">
+                      <li>
+                        <img src="images/r1.webp" class="img-fluid" alt="" />
+                      </li>
+                      <li>
+                        <img src="images/r2.webp" class="img-fluid" alt="" />
+                      </li>
+                      <li>
+                        <img src="images/r3.webp" class="img-fluid" alt="" />
+                      </li>
+                    </ul>
+                    <p>14 April 2024</p>
+                  </div>
+                  <h2>
+                    Anticipating the Use of Robots in Domestic Abuse: A Typology
+                    of Robot Facilitated Abuse to Support Risk Assessment and
+                    Mitigation in Human-Robot Interaction
+                  </h2>
+                  <p>
+                    HRI ‘24: Proceedings of the 2024 ACM/IEEE International
+                    Conference on Human-Robot Interaction
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="row padding_left_right">
+              <!--left img -->
+              <div class="col-12 col-sm-12 col-lg-4">
+                <img
+                  src="images/pub1.webp"
+                  class="w-100 mobile_img_margin"
+                  alt=""
+                />
+              </div>
+              <!-- right content -->
+              <div class="col-12 col-sm-12 col-lg-8">
+                <div class="rec_content">
+                  <div class="d-flex justify-content-between mb_30">
+                    <ul class="">
+                      <li>
+                        <img src="images/r1.webp" class="img-fluid" alt="" />
+                      </li>
+                      <li>
+                        <img src="images/r2.webp" class="img-fluid" alt="" />
+                      </li>
+                      <li>
+                        <img src="images/r3.webp" class="img-fluid" alt="" />
+                      </li>
+                    </ul>
+                    <p>14 April 2024</p>
+                  </div>
+                  <h2>
+                    Anticipating the Use of Robots in Domestic Abuse: A Typology
+                    of Robot Facilitated Abuse to Support Risk Assessment and
+                    Mitigation in Human-Robot Interaction
+                  </h2>
+                  <p>
+                    HRI ‘24: Proceedings of the 2024 ACM/IEEE International
+                    Conference on Human-Robot Interaction
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Academic Books section -->
+      <section class="academic">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>Academic Books</h2>
+          </div>
+          <!-- --------- -->
+          <div class="row g-3">
+            <!-- product 1 -->
+            <div
+              class="col-sm-6 col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="single_produtc">
+                <img src="images/book1.webp" class="w-100" alt="" />
+                <h4>€ 100.00</h4>
+                <button class="product_btn">Order</button>
+              </div>
+            </div>
+            <!-- product 2 -->
+            <div
+              class="col-sm-6 col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <div class="single_produtc">
+                <img src="images/book2.webp" class="w-100" alt="" />
+                <h4>€ 100.00</h4>
+                <button class="product_btn">Order</button>
+              </div>
+            </div>
+            <!-- product 3 -->
+            <div
+              class="col-sm-6 col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div class="single_produtc">
+                <img src="images/book3.webp" class="w-100" alt="" />
+                <h4>€ 100.00</h4>
+                <button class="product_btn">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Teaching section -->
+      <section class="teaching">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>Teaching</h2>
+          </div>
+        </div>
+
+        <div class="teachering_container">
+          <div class="accordion" id="accordionExample">
+            <div
+              class="custom_border"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <div class="container">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#tec1"
+                      aria-expanded="false"
+                      aria-controls="tec1"
+                    >
+                      <div class="teach_card w-100">
+                        <div class="row align-items-center g-3">
+                          <div
+                            class="col-1 col-sm-1 col-md-1 col-lg-auto order-2 order-sm-2 order-md- 1 order-lg-1"
+                          >
+                            <h1>1.</h1>
+                          </div>
+                          <div
+                            class="col-12 col-sm-2 col-md-2 col-lg-2 teach_accor_image order-1 order-sm-2 order-md-2 order-lg-2"
+                          >
+                            <img src="images/tec1.webp" class="w-100" alt="" />
+                          </div>
+                          <div class="col-11 col-sm-9 col-lg-9 order-3">
+                            <h2 class="teach_accor_header">
+                              Intelligent Interactive Systems (5/7.5 hp)
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </button>
+                  </h2>
+                  <div
+                    id="tec1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong>
+                      It is shown by default, until the collapse plugin adds the
+                      appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="custom_border"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
+              <div class="container">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button p-0 collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#tec2"
+                      aria-expanded="false"
+                      aria-controls="tec2"
+                    >
+                      <div class="teach_card w-100">
+                        <div class="row align-items-center g-3">
+                          <div
+                            class="col-1 col-sm-1 col-md-1 col-lg-auto order-2 order-sm-2 order-md- 1 order-lg-1"
+                          >
+                            <h1>2.</h1>
+                          </div>
+                          <div
+                            class="col-12 col-sm-2 col-md-2 col-lg-2 teach_accor_image order-1 order-sm-2 order-md-2 order-lg-2"
+                          >
+                            <img src="images/tec2.webp" class="w-100" alt="" />
+                          </div>
+                          <div class="col-11 col-sm-9 col-lg-9 order-3">
+                            <h2 class="teach_accor_header">
+                              Social robotics (7.5 hp)
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </button>
+                  </h2>
+                  <div
+                    id="tec2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="custom_border"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="900"
+            >
+              <div class="container">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed p-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#tec3"
+                      aria-expanded="false"
+                      aria-controls="tec3"
+                    >
+                      <div class="teach_card w-100">
+                        <div class="row align-items-center g-3">
+                          <div
+                            class="col-1 col-sm-1 col-md-1 col-lg-auto order-2 order-sm-2 order-md- 1 order-lg-1"
+                          >
+                            <h1>3.</h1>
+                          </div>
+                          <div
+                            class="col-12 col-sm-2 col-md-2 col-lg-2 teach_accor_image order-1 order-sm-2 order-md-2 order-lg-2"
+                          >
+                            <img src="images/tec3.webp" class="w-100" alt="" />
+                          </div>
+                          <div class="col-11 col-sm-9 col-lg-9 order-3">
+                            <h2 class="teach_accor_header">
+                              Social Consequences of Technology and Trustworthy
+                              AI (3 hp per semester)
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </button>
+                  </h2>
+                  <div
+                    id="tec3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work With Us! section -->
+      <section class="work">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2>Work With Us!</h2>
+          </div>
+          <!-- ----------- -->
+
+          <div class="work_body">
+            <div class="accordion" id="accordionExample">
+              <!-- item 1 -->
+              <div
+                class="accordion-item mb-5"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+              >
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <h1 class="acco_primary_title">Open Positions</h1>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="row">
+                      <div class="col-1" style="width: 42px; padding: 0"></div>
+                      <div class="col-auto">
+                        <p class="accordion_body_text" style="margin-top: 20px">
+                          The following is a list of project that our lab offers
+                          that can be expanded into e.g.a master thesis or an
+                          internship at the lab.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-auto work_icon_hide ps-0">
+                        <div style="margin-top: 36px; font-size: 18px">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                      </div>
+                      <div class="col-11">
+                        <h1 class="accordion_body_top_header">
+                          Large Language Models
+                        </h1>
+                        <p class="accordion_body_text">
+                          Alessio is open to master’s thesis and internships on
+                          Large Language Models in selected topic such as:
+                          knowledge augmentation and editing in language models,
+                          multi-modal generation for social robots, moral and
+                          ethical reasoning.
+                        </p>
+
+                        <h1 class="accordion_body_title">Prerequisites</h1>
+                        <p class="accordion_body_text">
+                          Strong knowledge of PyTorch and Language Models is
+                          required. Willingness to purse a publication is an
+                          advantage.
+                        </p>
+
+                        <h1 class="accordion_body_title">Contact</h1>
+                        <p class="accordion_body_text">
+                          For more information: alessio.galatolo@it.uu.se
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div
+                class="accordion-item"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="800"
+              >
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <h1 class="acco_primary_title">Master’s Projects</h1>
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="row">
+                      <div class="col-1" style="width: 42px; padding: 0"></div>
+                      <div class="col-auto">
+                        <p class="accordion_body_text" style="margin-top: 20px">
+                          The following is a list of project that our lab offers
+                          that can be expanded into e.g.a master thesis or an
+                          internship at the lab.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-auto work_icon_hide ps-0">
+                        <div style="margin-top: 36px; font-size: 18px">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                      </div>
+                      <div class="col-11">
+                        <!--  -->
+                        <h1 class="accordion_body_top_header">
+                          Large Language Models
+                        </h1>
+                        <p class="accordion_body_text">
+                          Alessio is open to master’s thesis and internships on
+                          Large Language Models in selected topic such as:
+                          knowledge augmentation and editing in language models,
+                          multi-modal generation for social robots, moral and
+                          ethical reasoning.
+                        </p>
+                        <!--  -->
+                        <h1 class="accordion_body_title">Prerequisites</h1>
+                        <p class="accordion_body_text">
+                          Strong knowledge of PyTorch and Language Models is
+                          required. Willingness to purse a publication is an
+                          advantage.
+                        </p>
+                        <!--  -->
+                        <h1 class="accordion_body_title">Contact</h1>
+                        <p class="accordion_body_text">
+                          For more information: alessio.galatolo@it.uu.se
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recent News section -->
+      <section class="news">
+        <div class="container">
+          <!-- section title -->
+          <div
+            class="section_title"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <h2 class="mb-5">Recent News</h2>
+          </div>
+          <!-- ------------>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+              <div
+                class="news_card"
+                data-aos="fade-down-right"
+                data-aos-easing="linear"
+                data-aos-duration="600"
+              >
+                <span>March 2024</span>
+                <p>
+                  Lux Miranda co-organized the 3rd version of the
+                  Workshop: Robo-Identity: Designing for Identity in the Shared
+                </p>
+                <a href=""
+                  >learn more
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+              <div
+                class="news_card"
+                data-aos="fade-up-right"
+                data-aos-easing="linear"
+                data-aos-duration="600"
+              >
+                <span>March 2024</span>
+                <p>
+                  Lux Miranda co-organized the 3rd version of the
+                  Workshop: Robo-Identity: Designing for Identity in the Shared
+                </p>
+                <a href=""
+                  >learn more
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 d-inline-flex">
+              <div
+                class="news_card"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="600"
+              >
+                <span>March 2024</span>
+                <p>
+                  Natalia Calvo Barajas was recognized as an “outstanding
+                  reviewer” based on her contributions to the peer-review
+                  process of the ACM/IEEE International Conference on
+                  Human-Robot Interaction (HRI), 2023.
+                </p>
+                <a href=""
+                  >learn more
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+              <div
+                class="news_card"
+                data-aos="fade-down-left"
+                data-aos-easing="linear"
+                data-aos-duration="600"
+              >
+                <span>March 2024</span>
+                <p>
+                  Lux Miranda co-organized the 3rd version of the
+                  Workshop: Robo-Identity: Designing for Identity in the Shared
+                </p>
+                <a href=""
+                  >learn more
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+              <div
+                class="news_card"
+                data-aos="fade-up-left"
+                data-aos-easing="linear"
+                data-aos-duration="600"
+              >
+                <span>March 2024</span>
+                <p>
+                  Lux Miranda co-organized the 3rd version of the
+                  Workshop: Robo-Identity: Designing for Identity in the Shared
+                </p>
+                <a href=""
+                  >learn more
+                  <i
+                    class="fa-solid fa-arrow-right-long"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="primary_footer">
+        <div class="container">
+          <div class="row g-sm-5 g-5">
+            <div
+              class="col-sm-6 col-md-6 col-lg-4 col-12"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <h1 class="footer_card_title">Visiting address</h1>
+              <p class="footer_card_text">
+                Room 100160, Building 10, Department of Information Technology,
+                New Ångström (Lägerhyddsvägen 1), Uppsala
+              </p>
+              <div class="f_link_wrap">
+                <a href="#" class="f_link">Travel Directions</a>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+
+            <div
+              class="col-sm-6 col-md-6 col-lg-4 col-12"
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <h1 class="footer_card_title">Contact person</h1>
+              <div class="footer_content_profile">
+                <div class="f_left_img">
+                  <img src="images/footer_img.webp" class="w-100" alt="" />
+                </div>
+                <div class="f_right_content">
+                  <h2>Ginevra Castellano</h2>
+                  <ul class="footer_content_address">
+                    <li>
+                      <p>ginevra.castellano@it.uu.se</p>
+                    </li>
+                    <li>
+                      <p>+46 70 4250200</p>
+                    </li>
+                    <li>
+                      <p>Box 337 751 05 UPPSALA</p>
+                    </li>
+                  </ul>
+                  <div class="f_link_wrap">
+                    <a href="#" class="f_link">Travel Directions</a>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-sm-6 col-md-6 col-lg-4 col-12"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
+              <h1 class="footer_card_title">Follow Us</h1>
+              <ul class="footer_social_link">
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="secondary_footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>© 2024 Accessibility Lab.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquary cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- aos animation cdn-->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- owl-carousel link -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js file -->
+    <script src="js/parallaxed.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      // parallax
+      $(".parallax").parallaxed();
+
+    </script>
+  </body>
+</html>
+
+<!-- sanjit -->

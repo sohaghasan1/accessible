@@ -1,0 +1,313 @@
+/* container */
+@media screen and (max-width: 1440px) and (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .phd .owl-item {
+    width: 325px !important;
+  }
+
+  .phd .owl-nav {
+    bottom: -20px;
+  }
+
+  .rec_content h2 {
+    font-size: 2.2rem;
+  }
+
+  .recent_carousel .owl-nav .owl-prev {
+    left: -40px;
+  }
+
+  .recent_carousel .owl-nav .owl-next {
+    right: -40px;
+  }
+
+  .phd .owl-carousel .owl-stage-outer {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 7680px) and (min-width: 1441px) {
+  .phd .owl-item {
+    width: 440px !important;
+  }
+}
+
+@media screen and (max-width: 7680px) and (min-width: 1441px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width:1600px) {
+  .banner_title {
+    font-size: 160px;
+  }
+
+  .banner-image img:first-child {
+    left: 95px;
+    max-width: 400px;
+  }
+
+  .banner-image img:last-child {
+    top: -65px;
+    right: 85px;
+    max-width: 400px;
+
+  }
+}
+
+
+/* ------------------------------ */
+
+/* table device */
+@media screen and (max-width: 1024px) and (min-width:1024px) {
+  .banner {
+    min-height: 75vh;
+  }
+
+  .phd .owl-carousel .owl-stage-outer {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner_content {
+    text-align: center;
+  }
+
+  @keyframes animationBg {
+    from {
+      background-position: -300px -200px;
+      opacity: 0;
+    }
+
+    to {
+      background-position: -5000px !important;
+      opacity: 1;
+    }
+  }
+
+  .banner_content h1 {
+    background: #ffffff99;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .banner_content h1 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+
+  .postdocs_img_position {
+    left: -50px;
+  }
+
+  .secound_row_position {
+    top: -40px;
+  }
+
+  .publication_content_one {
+    margin-left: 0px;
+  }
+
+  .rec_content h2 {
+    font-size: 2rem;
+  }
+
+  .teach_card h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .teach_card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  @keyframes animationBg {
+    from {
+      background-position: -300px -200px;
+      opacity: 0;
+    }
+
+    to {
+      background-position: -500px;
+      opacity: 1;
+    }
+  }
+
+  .banner {
+    min-height: 60vh;
+  }
+
+  .secound_row_position {
+    top: 80px;
+  }
+
+  .postdocs_img_position {
+    left: 0;
+  }
+
+  .mobile_img_margin {
+    margin-bottom: 30px;
+  }
+
+  .recent_carousel .owl-nav .owl-prev {
+    left: -30px;
+  }
+
+  .recent_carousel .owl-nav .owl-next {
+    right: -30px;
+
+  }
+}
+
+ /* mediam device */
+ @media screen and (max-width: 767px){
+  .navbar_nav{
+    display: none;
+  }
+  .mobile_menu{
+    display: block;
+  }
+ }
+
+/* mobile device */
+@media screen and (max-width: 575px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  header {
+    min-height: 100vh;
+  }
+
+  @keyframes animationBg {
+    from {
+      background-position: -300px -200px;
+      opacity: 0;
+    }
+
+    to {
+      background-position: 55%;
+      opacity: 1;
+    }
+  }
+
+  header ul {
+    column-gap: 12px;
+  }
+
+  header ul li a {
+    width: 30px;
+    height: 30px;
+  }
+
+  header ul a i {
+    font-size: 1rem;
+  }
+
+  .banner_content h1 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .our_people h1 {
+    font-size: 3.3rem;
+    margin-bottom: 30px;
+  }
+
+  .section_title h2 {
+    font-size: 2.8rem;
+  }
+
+  .postdocs_content h3 {
+    font-size: 1.7rem;
+  }
+
+  .postdocs_content h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .publication_content h3 {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+
+  .padding_left_right {
+    padding: 0;
+  }
+
+  .recent_carousel .owl-nav {
+    display: none !important;
+  }
+
+  .mobile_img_margin {
+    margin-bottom: 30px;
+  }
+
+  .rec_content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .work_icon_hide {
+    display: none;
+  }
+
+  .acco_primary_title {
+    font-size: 2rem;
+    padding-bottom: 15px;
+  }
+
+  .accordion_body_top_header {
+    font-size: 1.5rem;
+  }
+
+  .accordion_body_title {
+    font-size: 1.5rem;
+  }
+
+  .rec_content p {
+    font-size: 1rem;
+  }
+
+  .teach_accor_image {
+    margin-bottom: 20px !important;
+  }
+
+  .teach_accor_image img {
+    max-height: 80px;
+    margin-bottom: -20px;
+  }
+
+  .teaching .teaching .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed,
+  .accordion-item:first-of-type>.accordion-header .accordion-button {
+    gap: 10px;
+  }
+
+  .teach_accor_header {
+    margin-left: 10px;
+  }
+
+  .phd .owl-carousel .owl-stage-outer {
+    height: 430px;
+  }
+
+  .teach_card h1 {
+    font-size: 2.2rem;
+  }
+
+  .teach_card h2 {
+    font-size: 1.2rem;
+  }
+}
